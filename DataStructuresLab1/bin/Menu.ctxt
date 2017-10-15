@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=p
+comment0.target=Menu(java.io.PrintWriter)
+comment0.text=\ \r\n\ Enables\ output\ to\ CSIS.txt\r\n\ \r\n\ @param\ a\ Printwriter\ shared\ class\r\n
+comment1.params=
+comment1.target=void\ display()
+comment2.params=
+comment2.target=int\ getSelection()
+comment2.text=\r\n\ Prompts\ the\ user\ for\ the\ choice.\ Outputs\ the\ prompt\ to\ the\ console\r\n\ as\ well\ as\ csis.txt.\r\n\ @return\ choice\ as\ an\ int\ value.\r\n
+numComments=3

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=p
+comment0.target=Hexadecimal(java.io.PrintWriter)
+comment1.params=
+comment1.target=void\ hexToDec()
+comment1.text=\r\n\ Method\ converts\ hexadecimal\ to\ decimal\ using\ the\ other\ methods.\r\n
+comment2.params=
+comment2.target=void\ inputHex()
+comment2.text=\r\n\ Method\ prompts\ the\ user\ for\ an\ input\ of\ a\ hexadecimal\ number\r\n
+comment3.params=
+comment3.target=void\ toDec()
+comment3.text=\r\n\ Method\ converts\ the\ hexadecimal\ into\ a\ decimal\ number\ using\ the\ private\r\n\ variable.\r\n
+comment4.params=
+comment4.target=void\ outDec()
+comment4.text=\r\n\ Outputs\ the\ decimal\ conversion\ to\ the\ csis.txt\ as\ well\ as\ the\ command\ line.\r\n
+comment5.params=
+comment5.target=void\ hexToBin()
+comment5.text=\r\n\ Method\ uses\ the\ other\ methods\ to\ convert\ from\ hexadecimal\ to\ binary.\r\n
+comment6.params=
+comment6.target=void\ toBin()
+comment6.text=\r\n\ Method\ converts\ the\ hexadecimal\ private\ variable\ into\ a\ binary\ string.\r\n
+comment7.params=
+comment7.target=void\ outBin()
+comment7.text=\r\n\ Method\ outputs\ the\ Binary\ string\ onto\ the\ csis.txt\ document\ as\ well\ as\r\n\ the\ console.\r\n
+numComments=8

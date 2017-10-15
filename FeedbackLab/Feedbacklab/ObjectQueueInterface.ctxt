@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ isEmpty()
+comment0.text=\r\n\ This\ method\ checks\ to\ see\ if\ the\ queue\ is\ empty.\r\n
+comment1.params=
+comment1.target=boolean\ isFull()
+comment1.text=\r\n\ This\ method\ checks\ to\ see\ if\ the\ queue\ is\ full.\r\n
+comment2.params=
+comment2.target=void\ clear()
+comment2.text=\r\n\ This\ method\ clears\ the\ Queue.\r\n
+comment3.params=
+comment3.target=java.lang.Object\ remove()
+comment3.text=\r\n\ This\ method\ removes\ the\ first\ element\ from\ this\ FIFO\ structure.\r\n
+comment4.params=
+comment4.target=java.lang.Object\ query()
+comment4.text=\r\n\ This\ method\ returns\ the\ first\ element\ from\ the\ FIFO\ structure\ but\ does\ not\ remove\ it.\r\n
+numComments=5

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MFQ()
+comment0.text=\r\n\ Default\ constructor\ sets\ all\ characteristics\ of\ a\ job\ to\ zero.\r\n
+comment1.params=p
+comment1.target=MFQ(java.io.PrintWriter)
+comment1.text=\r\n\ This\ method\ is\ used\ to\ pass\ the\ printwriter\ object\ so\ the\ output\ to\ .txt\ can\ be\ shared\ weith\ the\ main.\r\n\ @param\ this\ is\ the\ object\ that\ holds\ the\ txt\ file.\r\n
+comment2.params=f
+comment2.target=void\ setJobs(java.util.Scanner)
+comment2.text=\r\n\ This\ method\ gathers\ the\ jobs\ from\ the\ txt\ document\ 'mfq.txt'\r\n\ @param\ The\ scanner\ object\ is\ used\ to\ scan\ the\ document.\r\n
+comment3.params=
+comment3.target=void\ outputHeader()
+comment3.text=\r\n\ This\ method\ outputs\ the\ header\ of\ the\ table.\ It\ also\ prints\ the\ header\ to\ csis.txt.\r\n
+comment4.params=
+comment4.target=void\ runSimulation()
+comment4.text=\r\n\ This\ is\ the\ simulation\ of\ the\ feedback\ loop.\ Jobs\ are\ carried\ into\ the\ while\ loop\ and\ the\ algorithm\ determines\r\n\ which\ process\ has\ the\ higher\ priority\ as\ well\ as\ which\ have\ the\ lower\ priorities.\ The\ jobs\ that\ are\ first\ input\ are\ placed\ on\ \r\n\ the\ highest\ priority.\ If\ the\ process\ finishes\ in\ time\ then\ it\ is\ complete\ and\ there\ are\ no\ further\ necessary\ actions\r\n\ \ However\ if,\ the\ job\ does\ not\ finish\ in\ time\ before\ preemption\ occurs,\ then\ we\ send\ the\ job\ to\ a\ lower\ level\ priority\ which\r\n\ \ gives\ it\ a\ larger\ quantum\ clock\ meaning\ a\ longer\ time\ to\ process.\ Preemption\ occurs\ when\ anothe\ rprocess\ enters\ the\ system\r\n\ \ or\ if\ the\ quantum\ time\ has\ expired.\r\n
+comment5.params=
+comment5.target=void\ OutputStats()
+comment5.text=\r\n\ This\ method\ outputs\ the\ final\ stats\ of\ the\ program\ based\ on\ the\ jobs.\r\n
+numComments=6

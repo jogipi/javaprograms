@@ -1,0 +1,104 @@
+The following output is the current payroll from payfile.txt
+___________________________________________________________________________________
+| First-Name     | Last-Name      | Sex       | Years     | Wage      | Salary    |
+|=================================================================================|
+| Howard         | Starr          |	M     |    8      |	H     | 30.00     |
+| Joan           | Jacobus        |	F     |    9      |	W     | 925.00    |
+| David          | Renn           |	M     |    3      |	H     | 4.75      |
+| Albert         | Cahana         |	M     |    3      |	H     | 18.75     |
+| Douglas        | Sheer          |	M     |    5      |	W     | 250.00    |
+| Shari          | Buchman        |	F     |    9      |	W     | 325.00    |
+| Sara           | Jones          |	F     |    1      |	H     | 7.50      |
+| Ricky          | Mofsen         |	M     |    6      |	H     | 12.50     |
+| Jean           | Brennan        |	F     |    6      |	H     | 5.40      |
+| Deborah        | Starr          |	F     |    3      |	W     | 1000.00   |
+| Jamie          | Michaels       |	F     |    8      |	W     | 150.00    |
+===================================================================================
+Amount of Employees: 11
+
+
+The following table outputs the women on the payroll
+___________________________________________________________________________________
+| First-Name     | Last-Name      | Sex       | Years     | Wage      | Salary    |
+|=================================================================================|
+| Joan           | Jacobus        |	F     |    9      |	W     | 925.00    |
+| Shari          | Buchman        |	F     |    9      |	W     | 325.00    |
+| Sara           | Jones          |	F     |    1      |	H     | 7.50      |
+| Jean           | Brennan        |	F     |    6      |	H     | 5.40      |
+| Deborah        | Starr          |	F     |    3      |	W     | 1000.00   |
+| Jamie          | Michaels       |	F     |    8      |	W     | 150.00    |
+===================================================================================
+
+The following table outputs those employees who make more than $35,000 per year and have been with the company for at least five years.
+________________________________________________
+| First-Name     | Last-Name      | Salary     |
+|==============================================|
+| Howard         | Starr          | 30.00      |
+| Joan           | Jacobus        | 925.00     |
+================================================
+
+Applying $0.75 raise to employees who make less than $10.00/hr, and $50.00 raise for employees who make less than $350.00/week...
+________________________________________________
+| First-Name     | Last-Name      | New Salary |
+|==============================================|
+| David          | Renn           | 5.50       |
+| Douglas        | Sheer          | 300.00     |
+| Shari          | Buchman        | 375.00     |
+| Sara           | Jones          | 8.25       |
+| Jean           | Brennan        | 6.15       |
+| Jamie          | Michaels       | 200.00     |
+================================================
+___________________________________________________________________________________
+| First-Name     | Last-Name      | Sex       | Years     | Wage      | Salary    |
+|=================================================================================|
+| Howard         | Starr          |	M     |    8      |	H     | 30.00     |
+| Joan           | Jacobus        |	F     |    9      |	W     | 925.00    |
+| David          | Renn           |	M     |    3      |	H     | 5.50      |
+| Albert         | Cahana         |	M     |    3      |	H     | 18.75     |
+| Douglas        | Sheer          |	M     |    5      |	W     | 300.00    |
+| Shari          | Buchman        |	F     |    9      |	W     | 375.00    |
+| Sara           | Jones          |	F     |    1      |	H     | 8.25      |
+| Ricky          | Mofsen         |	M     |    6      |	H     | 12.50     |
+| Jean           | Brennan        |	F     |    6      |	H     | 6.15      |
+| Deborah        | Starr          |	F     |    3      |	W     | 1000.00   |
+| Jamie          | Michaels       |	F     |    8      |	W     | 200.00    |
+===================================================================================
+
+Sorting list alphabetically by the last name 
+Inserting new employees in payroll based on hireFile.txt
+___________________________________________________________________________________
+| First-Name     | Last-Name      | Sex       | Years     | Wage      | Salary    |
+|=================================================================================|
+| Barry          | Allen          |	M     |    0      |	H     | 6.75      |
+| Jean           | Brennan        |	F     |    6      |	H     | 6.15      |
+| Shari          | Buchman        |	F     |    9      |	W     | 375.00    |
+| Albert         | Cahana         |	M     |    3      |	H     | 18.75     |
+| Joan           | Jacobus        |	F     |    9      |	W     | 925.00    |
+| Sara           | Jones          |	F     |    1      |	H     | 8.25      |
+| Jamie          | Michaels       |	F     |    8      |	W     | 200.00    |
+| Ricky          | Mofsen         |	M     |    6      |	H     | 12.50     |
+| Nina           | Pinella        |	F     |    0      |	W     | 425.00    |
+| David          | Renn           |	M     |    3      |	H     | 5.50      |
+| Douglas        | Sheer          |	M     |    5      |	W     | 300.00    |
+| Deborah        | Starr          |	F     |    3      |	W     | 1000.00   |
+| Howard         | Starr          |	M     |    8      |	H     | 30.00     |
+| Lane           | Wagger         |	M     |    0      |	W     | 725.00    |
+===================================================================================
+
+Removing employees from payroll base on fireFile.txt
+___________________________________________________________________________________
+| First-Name     | Last-Name      | Sex       | Years     | Wage      | Salary    |
+|=================================================================================|
+| Barry          | Allen          |	M     |    0      |	H     | 6.75      |
+| Shari          | Buchman        |	F     |    9      |	W     | 375.00    |
+| Albert         | Cahana         |	M     |    3      |	H     | 18.75     |
+| Joan           | Jacobus        |	F     |    9      |	W     | 925.00    |
+| Sara           | Jones          |	F     |    1      |	H     | 8.25      |
+| Jamie          | Michaels       |	F     |    8      |	W     | 200.00    |
+| Nina           | Pinella        |	F     |    0      |	W     | 425.00    |
+| David          | Renn           |	M     |    3      |	H     | 5.50      |
+| Douglas        | Sheer          |	M     |    5      |	W     | 300.00    |
+| Deborah        | Starr          |	F     |    3      |	W     | 1000.00   |
+| Howard         | Starr          |	M     |    8      |	H     | 30.00     |
+| Lane           | Wagger         |	M     |    0      |	W     | 725.00    |
+===================================================================================
